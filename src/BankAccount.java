@@ -31,7 +31,7 @@ public class BankAccount {
 
     @Override
     public String toString() {
-        return "Konto bankowe: " + person +
-                ", stan konta: " + account;
+            return "Konto bankowe: " + person +
+                    ", stan konta: " + account;
     }
 }
