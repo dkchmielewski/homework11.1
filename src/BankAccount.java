@@ -11,10 +11,6 @@ public class BankAccount {
     }
 
     public void addDeposit(double deposit) {
-        if (person == null) {
-            throw new NullPointerException("Prosze podac osobe");
-        }
-        else
             account += deposit;
     }
 
